@@ -1,0 +1,35 @@
+DXBall Readme
+
+Controls
+escape - exits application
+z - zooms camera along positive-z
+x - zooms camera along negative-z
+a - moves camera along negative-x
+d - moves camera along positive-x
+w - moves the camera along the positive-y
+s - moves the camera along the negative-y
+p - pauses the game
+space - un-pause the game
+r - start new game
+
+right arrow key - move the paddle along positive-x
+left arrow key - move the paddle along negative-x
+
+page up - rotate the camera positive about the camera right axis
+page down - rotate the camera negative about the camera right axis
+home - rotate the camera positive about the camera up axis
+end - rotate the camera negative about the camera up axis
+[ - clockwise orbit the camera around the y axis
+] - counter-clockwise orbit the camera around the y axis
+; - clockwise orbit the camera around the x axis
+' - counter-clockwise orbit the camera around the x axis
+
+
+ball length 1m; width 1m; depth 1m; x e [-0.5,0.5]; y e [-0.5,0.5]; z e [-0.5,0.5]
+block length 2m; width 4m; depth 2m; x e [-2,2]; y e [-1,1]; z e [-1,1]
+paddle length 2m; width 10m; depth 2m; x e [-5,5]; y e [-1,1]; z e [-1,1]
+arena length 40m; width 40m; depth 2m; x e [-20,20]; y e [-20,20]; z e [-1,1]
+
+
+
+
